@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(34, 6, 2);
+    color: #f5f5f5;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.navbar-blur {
+    background: rgba(120, 20, 20, 0.45) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.nav-link:hover, .dropdown-item:hover {
+    color: #ffddd4 !important;
+}
+
+.dropdown-menu {
+    background: rgba(120, 20, 20, 0.85) !important;
+    backdrop-filter: blur(6px);
+    border-radius: 10px;
+}
+.dropdown-item {
+    color: #fff !important;
+}
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.main-title {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.5);
+}
+
+.title-badge {
+    background-color: rgb(184, 64, 46);
+    font-size: 1.6rem;
+    padding: 14px 28px;
+    border-radius: 14px;
+}
+
+.photo-box {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 14px;
+    padding: 12px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.45);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.55);
+}
+
+.photo-box img {
+    width: 100%;
+    height: 220px;  
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.photo-description {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+}
+
+.gallery-title {
+    text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.alert-custom-info {
+    background-color: rgba(184, 64, 46, 0.85);
+    color: #fff;
+    border: none;
+}
+
+.alert-custom-success {
+    background-color: rgba(34, 139, 34, 0.85); 
+    color: #fff;
+    border: none;
+}
+
+.alert-custom-warning {
+    background-color: rgba(255, 165, 0, 0.85);
+    color: #fff;
+    border: none;
+}
+
+.alert-custom-danger {
+    background-color: rgba(178, 34, 34, 0.85);
+    color: #fff;
+    border: none;
+}
+/* Footer 样式 - 更小更紧凑 */
+footer {
+    background: rgba(120, 20, 20, 0.85);
+    color: #fff;
+    padding: 12px 0;        
+    backdrop-filter: blur(6px);
+    text-align: center;
+    font-size: 0.9rem;         
+}
+
+footer h5 {
+    font-size: 1rem;     
+    margin-bottom: 6px;
+}
+
+footer p {
+    margin: 2px 0;       
+}
+
+footer a {
+    color: #ffddd4;
+    text-decoration: none;
+    margin: 0 6px;
+    font-size: 0.9rem;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer .footer-social i {
+    font-size: 1.2rem;          
+    margin: 0 6px;
+    transition: transform 0.2s;
+}
+
+footer .footer-social i:hover {
+    transform: scale(1.2);
+}
+
